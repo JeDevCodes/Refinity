@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+html, *{
+    background-color: rgb(54, 54, 54);
+}
+
+.light-gray-100{
+    background-color: rgb(40, 40, 40);
+}
+.light-gray-00{
+    background-color: rgb(24, 24, 24);
+}
+
+.black-100{
+    background-color: rgb(0, 0, 0);
+
+}
+
+.r2-full{
+    display: flex;
+    flex-direction: column;
+}
+
+.r2-code-screen{
+    padding: 20px;
+    height: 100%;  
+    min-height:700px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(81, 80, 80);
+}
+
+.r2-left-ip{
+    padding: 10px;
+    width: 100%;
+    border: 5px white;
+    border-radius: 3px;
+}
+.r2-text{
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+
+    color: aliceblue;
+}
+
+.r2-right-op{
+    border: 5px white;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.query{
+    width:60%;
+    margin: 5px 20vw;
+    overflow-y: hidden;
+    color: aliceblue;
+    
+    position: sticky;
+    bottom: 10px;
+
+    border-radius: 15px;
+}
+
+.r3-full{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;    
+}
+
+.r3-op{
+    padding: 20px;
+    height: 100%;  
+    min-height:700px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(81, 80, 80);
+}
